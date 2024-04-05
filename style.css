@@ -1,3 +1,7 @@
+:root {
+    --head-color: #202020;
+}
+
 html {
   width: 100%;
 }
