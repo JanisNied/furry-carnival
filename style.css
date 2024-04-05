@@ -1,5 +1,7 @@
 :root {
-    --head-color: #202020;
+  --head-color: #202020;
+  --bg-color: #282828;
+  --text-color: #ffffff;
 }
 
 html {
@@ -11,6 +13,12 @@ body {
   margin: 0;
   height: 100%;
   overflow: hidden
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  background: var(--bg-color)
 }
 
 header {
